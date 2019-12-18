@@ -43,8 +43,23 @@
   # HoH all the way to Species!
 
 def naming_system
-  kingdom = { :sub_category => {"Phylum", :sub_category
-        }
-      }
-    
+  kingdom = { :sub_category => label: "Kingdom", 
+              :sub_category => { label: "Phylum", :sub_category => { label: "Class", :sub_category => {label: "Order", :sub_category => { label: "Family", :sub_category => { label: "Genus", :sub_category => {
+                
+              }
+                
+              }
+                
+              }
+                
+              }
+              
+                
+              }
+                 
+              }
+#   sub_category: {
+#     label: "Phylum",
+#     sub_category: {
+#       label: "Class"
 end
