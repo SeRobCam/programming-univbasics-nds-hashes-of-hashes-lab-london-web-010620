@@ -46,11 +46,11 @@ def naming_system
   hoh = {
     {:label => "Kingdom",
     :sub_category => {
-    :label => "Phylum",
+    :label => "Phylum"},
     :sub_category => {
     :label => "Class"},
     }
-    }
+    
   
       
       
